@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap");
+.service {
+  margin-top: 50px;
+}
+
+.service .service_head {
+  border-left: 5px solid #bbbbbb;
+  padding-top: 20px;
+}
+
+.service .service_head h2 {
+  padding: 20px;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Kalam', cursive;
+}
+
+.service .service_content {
+  padding: 20px;
+}
+
+.service .service_content p {
+  font-size: 18px;
+  color: #000;
+  font-family: 'Kalam', cursive;
+}
+
+.service .service_content a {
+  font-size: 18px;
+  color: white;
+  background-color: #058a00;
+  padding: 10px;
+  font-family: 'Kalam', cursive;
+}
+
+.service .service_img .img {
+  position: relative;
+  padding: 20px;
+}
+
+.service .service_img img {
+  border-radius: 30px;
+}
+
+.service .service_img .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.service .service_img .text {
+  color: white;
+  font-size: 36px;
+  padding: 16px;
+  font-family: 'Kalam', cursive;
+}
+/*# sourceMappingURL=style.css.map */
